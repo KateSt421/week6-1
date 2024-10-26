@@ -1,0 +1,49 @@
+@font-face {
+  font-family: "Open Sans";
+  src: url("../assets/fonts/OpenSans-Regular.eot");
+  src: local("Open Sans Regular"), local("OpenSans-Regular"),
+    url("../assets/fonts/OpenSans-Regular.woff2") format("woff2"),
+    url("../assets/fonts/OpenSans-Regular.woff") format("woff"),
+    url("../assets/fonts/OpenSans-Regular.ttfs") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+.container {
+  display: grid;
+  flex-wrap: wrap;
+}
+
+.header {
+  height: 60px;
+  background-color: #1d2f30;
+}
+
+.banner {
+  background-image: url(/assets/images/1_1.png);
+  height: 490px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.card-box {
+  height: 550px;
+  background-color: #0b1919;
+}
+
+.banner-new {
+}
+
+.form {
+  height: 463px;
+  background-image: url(/assets/images/1_2.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+footer {
+  height: 79px;
+  background-color: #0b1919;
+}
