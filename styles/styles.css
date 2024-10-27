@@ -9,22 +9,72 @@
   font-style: normal;
 }
 
+body {
+  height: 100vh;
+}
+
 .container {
   display: grid;
   flex-wrap: wrap;
+  grid-template-columns: repeat(12, 120px);
 }
 
 .header {
   height: 60px;
   background-color: #1d2f30;
+  grid-row: 1 / 2;
+  grid-column: span 13;
+  display: grid;
+  align-content: center;
+  justify-content: space-evenly;
+}
+
+.logo {
+  grid-row: 1;
+  grid-column: 1 / 2;
+}
+
+.nav {
+  grid-row: 1;
+  grid-column: span 4;
+  display: grid;
+}
+
+.navy {
+  list-style-type: none;
+  display: grid;
+  height: 24px;
+  font-family: "Open Sans";
+}
+
+.navy-item {
+  font-family: "Open Sans";
+  color: #ffffff;
 }
 
 .banner {
-  background-image: url(/assets/images/1_1.png);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(/assets/images/1_1.png);
   height: 490px;
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
+  grid-column: 1 / 13;
+  display: grid;
+}
+.title {
+  grid-column: 2 /5;
+  color: #ffffff;
+  width: 350px;
+}
+
+.title-text {
+  grid-column: 2 / 9;
+  width: 476px;
+  font-family: "Open Sans";
+  font-size: 16px;
+  line-height: 150%;
+  color: #ffffff;
 }
 
 .card-box {
@@ -33,6 +83,12 @@
 }
 
 .banner-new {
+  grid-column: 2 / 8;
+}
+
+.bunner-new-img {
+  grid-column: 1 / 8;
+  display: grid;
 }
 
 .form {
@@ -41,9 +97,14 @@
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
+  grid-row: 8;
+  grid-column: span 13;
 }
 
 footer {
   height: 79px;
   background-color: #0b1919;
+  /* position: fixed; */
+  border: 0;
+  grid-column: 1 / 13;
 }
