@@ -89,6 +89,7 @@ body {
 .bunner-new-img {
   grid-column: 1 / 8;
   display: grid;
+  width: 300px;
 }
 
 .form {
