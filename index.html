@@ -1,8 +1,17 @@
 <!DOCTYPE html>
 <html lang="ru">
   <head>
+    <script
+      src="https://kit.fontawesome.com/362708026e.js"
+      crossorigin="anonymous"
+    ></script>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="shortcut icon"
+      href="https://live.verstaem.online/f&b/img/layer-3.png"
+      type="image/x-icon"
+    />
     <link rel="stylesheet" href="styles/reset.css" />
     <link rel="stylesheet" href="styles/normalize.css" />
     <link rel="stylesheet" href="styles/styles.css" />
@@ -43,6 +52,7 @@
       </section>
       <div class="card-box">
         <div class="card1">
+          <div class="card__image-number"><span>2.4</span></div>
           <img class="plant" src="assets/images/fig1.png" alt="plant" />
           <h3>Fig. 1 (plant)</h3>
           <p class="card-text">
@@ -54,6 +64,7 @@
           </div>
         </div>
         <div class="card2">
+          <div class="card__image-number"><span>3.1</span></div>
           <img class="plant" src="assets/images/fig2.png" alt="flower" />
           <h3>Fig. 2 (flower)</h3>
           <p class="card-text">
@@ -65,6 +76,7 @@
           </div>
         </div>
         <div class="card3">
+          <div class="card__image-number"><span>1.2</span></div>
           <img class="plant" src="assets/images/fig3.png" alt="leaf" />
           <h3>Fig. 3 (leaf)</h3>
           <p class="card-text">
@@ -76,6 +88,7 @@
           </div>
         </div>
         <div class="card4">
+          <div class="card__image-number"><span>1.4</span></div>
           <img class="plant" src="assets/images/fig4.png" alt="wood" />
           <h3>Fig. 4 (wood)</h3>
           <p class="card-text">
@@ -88,9 +101,9 @@
         </div>
       </div>
       <div class="arrow">
-        <img src="assets/images/Arrow2.svg" alt="Назад" />
+        <a href="#"><img src="assets/images/Arrow2.svg" alt="Назад" /></a>
         <p>1 из 3</p>
-        <img src="assets/images/Arrow1-1.svg" alt="Вперёд" />
+        <a href="#"> <img src="assets/images/Arrow1-1.svg" alt="Вперёд" /></a>
       </div>
       <h2 class="banner-new-title">Новые артефакты</h2>
       <div class="banner-new-aside">
@@ -104,9 +117,18 @@
           <p class="banner-aside-text">
             Вот вам яркий пример современных тенденций - начало повседневной
             работы по формированию позиции выявляет срочную потребность методов
-            управления процессами. Есть над чем задуматься: представители
-            современных социальных резервов своевременно верифицированы.
+            управления процессами.
           </p>
+          <p class="banner-aside-text">
+            Есть над чем задуматься: представители современных социальных
+            резервов своевременно верифицированы.
+          </p>
+          <div class="read">
+            <p class="read-title">Читать далее</p>
+            <a href="#">
+              <img src="assets/images/Arrow1-1.svg" alt="Далее"
+            /></a>
+          </div>
         </aside>
       </div>
       <div class="form">
@@ -137,7 +159,45 @@
           <a class="link-form" href="#">Отправить</a>
         </div>
       </div>
-      <footer></footer>
+      <footer>
+        <div class="media">
+          <ul class="social-media">
+            <li>
+              <a
+                class="media-brands"
+                href="https://www.youtube.com/"
+                target="_blank"
+                ><i class="fa-brands fa-youtube"></i
+              ></a>
+            </li>
+            <li>
+              <a
+                class="media-brands"
+                href="https://www.instagram.com/"
+                target="_blank"
+                ><i class="fa-brands fa-instagram"></i
+              ></a>
+            </li>
+            <li>
+              <a
+                class="media-brands"
+                href="https://www.facebook.com/?locale=ru_RU"
+                target="_blank"
+                ><i class="fa-brands fa-facebook-f"></i
+              ></a>
+            </li>
+            <li>
+              <a
+                class="media-brands"
+                target="_blank"
+                href="https://twitter.com/?lang=ru"
+                ><i class="fa-brands fa-twitter"></i
+              ></a>
+            </li>
+          </ul>
+        </div>
+        <div class="footer-bottom">f&b &copy; 2020</div>
+      </footer>
     </div>
   </body>
 </html>
