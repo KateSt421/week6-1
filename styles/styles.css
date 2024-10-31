@@ -210,7 +210,7 @@ h3 {
   padding-top: 50px;
 }
 
-h2 {
+.banner-new-title {
   font-family: "Cormorant";
   font-style: italic;
   font-weight: 700;
@@ -271,6 +271,63 @@ h2 {
   background-size: cover;
   position: relative;
   grid-column: span 13;
+}
+
+.form-title {
+  width: 308px;
+  font-family: "Cormorant";
+  font-style: italic;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 100%;
+  color: #ffffff;
+  grid-column: 1 / 13;
+  display: grid;
+  padding-top: 50px;
+  padding-left: 160px;
+}
+
+.form-text {
+  width: 825px;
+  font-family: "Open Sans";
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  color: #ffffff;
+  grid-column: 1 / 13;
+  display: grid;
+  padding-top: 16px;
+  padding-left: 160px;
+}
+
+.form-input {
+  padding: 0px 0px 0px 16px;
+  width: 350px;
+  height: 45px;
+  background: #ffffff;
+  margin-left: 160px;
+  margin-top: 24px;
+  border-style: none;
+}
+
+.form-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 145px;
+  height: 45px;
+  background: #bae249;
+  margin-left: 160px;
+  margin-top: 24px;
+  border-style: none;
+}
+
+.link-form {
+  font-family: "Open Sans";
+  font-weight: 700;
+  font-size: 16px;
+  color: #0b1919;
+  text-decoration: none;
 }
 
 footer {

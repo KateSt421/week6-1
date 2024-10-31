@@ -92,7 +92,7 @@
         <p>1 из 3</p>
         <img src="assets/images/Arrow1-1.svg" alt="Вперёд" />
       </div>
-      <h2>Новые артефакты</h2>
+      <h2 class="banner-new-title">Новые артефакты</h2>
       <div class="banner-new-aside">
         <img
           class="banner-new-img"
@@ -110,18 +110,31 @@
         </aside>
       </div>
       <div class="form">
-        <h2>Помочь проекту</h2>
-        <p>
+        <h2 class="form-title">Помочь проекту</h2>
+        <p class="form-text">
           Равным образом, экономическая повестка сегодняшнего дня не даёт нам
           иного выбора, кроме определения прогресса профессионального
           сообщества. Как принято считать, элементы политического процесса
           рассмотрены исключительно в разрезе маркетинговых и финансовых
           предпосылок.
         </p>
-        <input type="text" />
-        <input type="text" />
-        <div class="card-btn">
-          <a class="link-card" href="#">Отправить</a>
+        <form>
+          <div>
+            <label for="name"></label>
+            <input class="form-input" type="text" placeholder="Имя" id="name" />
+          </div>
+          <div>
+            <label for="userEmail"></label>
+            <input
+              class="form-input"
+              type="email"
+              placeholder="Email"
+              id="userEmail"
+            />
+          </div>
+        </form>
+        <div class="form-btn">
+          <a class="link-form" href="#">Отправить</a>
         </div>
       </div>
       <footer></footer>
