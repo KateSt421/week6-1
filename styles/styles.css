@@ -109,7 +109,6 @@ body {
   background-color: #1d2f30;
   grid-column: 1 / 13;
   display: grid;
-  /* grid-template-columns: repeat(4, 1fr); */
 }
 
 .card__image-number {
@@ -173,7 +172,6 @@ body {
   border: 1px solid #0b1919;
   margin-right: 50px;
   grid-column: 11 /13;
-  /* justify-items: center; */
 }
 
 .plant {
